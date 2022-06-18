@@ -1,0 +1,191 @@
+<!doctype html>
+<html lang="ar" dir="rtl">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.rtl.min.css" integrity="sha384-dc2NSrAXbAkjrdm9IYrX10fQq9SDG6Vjz7nQVKdKcJl3pC+k37e7qJR5MVSCS+wR" crossorigin="anonymous">
+
+    <title>AlyViajes</title>
+  </head>
+  <body>
+    <h1>مرحبًا بالعالم!</h1>
+
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    <!--
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.5/dist/umd/popper.min.js" integrity="sha384-Xe+8cL9oJa6tN/veChSP7q+mnSPaj5Bcu9mPX5F5xIGE0DVittaqT5lorf0EI7Vk" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.min.js" integrity="sha384-kjU+l4N0Yf4ZOJErLsIcvOU2qSb74wXpOhqTvwVx3OElZRweTnQ6d31fXEoRD1Jy" crossorigin="anonymous"></script>
+    -->
+    <header>
+        <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+          <div class="container-fluid">
+            <a class="navbar-brand" href="#">Viajes</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarCollapse">
+              <ul class="navbar-nav me-auto mb-2 mb-md-0">
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="#">Home</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Galería</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link disabled">Turismo</a>
+                </li>
+              </ul>
+              <form class="d-flex" role="search">
+                <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                <button class="btn btn-outline-success" type="submit">Search</button>
+              </form>
+            </div>
+          </div>
+        </nav>
+      </header>
+
+
+      <div id="myCarousel" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <center><img src="bootstrap-5.2.0-beta1-dist/pics/img3.jfif" alt="imagen 3" class="bd-placeholder-img"  width="800px" height="400px" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false"></center>
+    
+            <div class="container">
+              <div class="carousel-caption text-start">
+                <h1></h1>
+                <p></p>
+                <p><a class="btn btn-lg btn-primary" href="#" >Registrate</a></p>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+          
+            <center><img src="bootstrap-5.2.0-beta1-dist/pics/img1.jfif" alt="imagen 1" class="bd-placeholder-img"  width="800px" height="400px" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false"></center>
+            <div class="container">
+              <div class="carousel-caption">
+                
+                <h1>Viajar</h1>
+                <p>Todos los viajes tienen destinos secretos sobre los que el viajero nada sabe. </p>
+                <p><a class="btn btn-lg btn-primary" href="#">Aprende más</a></p>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <center><img src="bootstrap-5.2.0-beta1-dist/pics/img2.jpg" alt="imagen 2" class="bd-placeholder-img"  width="800px" height="400px" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false"></center>
+    
+            <div class="container">
+              <div class="carousel-caption text-end">
+                <p></p>
+                <p><a class="btn btn-lg btn-primary" href="#">Explorar galería</a></p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#myCarousel" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#myCarousel" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+
+      <div class="container marketing">
+
+        <!-- Three columns of text below the carousel -->
+        <div class="row">
+          <div class="col-lg-4">
+            <img src="bootstrap-5.2.0-beta1-dist/pics/roma.jpg" alt="roma" class="bd-placeholder-img rounded-circle" width="140" height="140" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 140x140" preserveAspectRatio="xMidYMid slice" focusable="false">
+            <h2 class="fw-normal">Roma</h2>
+            <p>Roma, la capital de Italia, es una extensa ciudad cosmopolita que tiene a la vista casi 3000 años de arte, arquitectura y cultura de influencia mundial. </p>
+            <p><a class="btn btn-secondary" href="#">Ver detalles &raquo;</a></p>
+          </div><!-- /.col-lg-4 -->
+          <div class="col-lg-4">
+            <img src="bootstrap-5.2.0-beta1-dist/pics/mexico.jpg" alt="mexico" class="bd-placeholder-img rounded-circle" width="140" height="140" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 140x140" preserveAspectRatio="xMidYMid slice" focusable="false">
+    
+            <h2 class="fw-normal">Ciudad de México</h2>
+            <p>Ciudad de México es famosa por su Templo Mayor, la Catedral Metropolitana de México y el Palacio Nacional</p>
+            <p><a class="btn btn-secondary" href="#">Ver detalles &raquo;</a></p>
+          </div><!-- /.col-lg-4 -->
+          <div class="col-lg-4">
+            <img src="bootstrap-5.2.0-beta1-dist/pics/francia.jpg" alt="francia" class="bd-placeholder-img rounded-circle" width="140" height="140" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 140x140" preserveAspectRatio="xMidYMid slice" focusable="false">
+    
+            <h2 class="fw-normal">París</h2>
+            <p>París, la capital de Francia, es una importante ciudad europea y un centro mundial del arte, la moda, la gastronomía y la cultura. </p>
+            <p><a class="btn btn-secondary" href="#">Ver detalles &raquo;</a></p>
+          </div><!-- /.col-lg-4 -->
+        </div><!-- /.row -->
+    
+
+        <!-- START THE FEATURETTES -->
+    
+        <hr class="featurette-divider">
+    
+        <div class="row featurette">
+          <div class="col-md-7">
+            <h2 class="featurette-heading fw-normal lh-1">Auroras Boreales<span class="text-muted"></span></h2>
+            <p class="lead">La aurora boreal tiene todas las características de una protagonista de novela literaria: es elusiva, hermosa y se hace del rogar. Este fenómeno natural, también conocido como “luces del norte”, es tan alucinante y etéreo que atrae visitantes de todo el mundo para poder observarlo.</p>
+          </div>
+          <div class="col-md-5">
+            <img src="bootstrap-5.2.0-beta1-dist/pics/auroras.jpg" alt="auroras" class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500" height="500" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 500x500" preserveAspectRatio="xMidYMid slice" focusable="false">
+          </div>
+        </div>
+    
+        <hr class="featurette-divider">
+    
+        <div class="row featurette">
+          <div class="col-md-7 order-md-2">
+            <h2 class="featurette-heading fw-normal lh-1">Nueva York<span class="text-muted"></span></h2>
+            <p class="lead">Nueva York se ha convertido en los últimos años y por méritos propios en la capital económica y cultural más importante del mundo. La ciudad ofrece un ambiente y un estilo de vida único difíciles de explicar en una guía de Nueva York, hay que vivirlo y disfrutarlo.</p>
+          </div>
+          <div class="col-md-5 order-md-1">
+            <img src="bootstrap-5.2.0-beta1-dist/pics/newyork.jpg" alt="newyork" class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500" height="500" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 500x500" preserveAspectRatio="xMidYMid slice" focusable="false">
+    
+          </div>
+        </div>
+    
+        <hr class="featurette-divider">
+    
+        <div class="row featurette">
+          <div class="col-md-7">
+            <h2 class="featurette-heading fw-normal lh-1">Cancún<span class="text-muted"></span></h2>
+            <p class="lead">Cancún es uno de los principales destinos turísticos de México y es reconocido internacionalmente por sus blancas playas, su infraestructura hotelera y de servicios y la calidez de su gente. </p>
+          </div>
+          <div class="col-md-5">
+            <img src="bootstrap-5.2.0-beta1-dist/pics/cancun.webp" alt="cancun" class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500" height="500" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 500x500" preserveAspectRatio="xMidYMid slice" focusable="false">
+    
+          </div>
+        </div>
+    
+        <hr class="featurette-divider">
+    
+        <!-- /END THE FEATURETTES -->
+    
+      </div><!-- /.container -->
+
+      <!-- FOOTER -->
+  <footer class="container">
+    <p class="float-end"><a href="#">Back to top</a></p>
+    <p>&copy; 2017–2022 Company, Inc. &middot; <a href="#">Privacy</a> &middot; <a href="#">Terms</a></p>
+    <p>Alumno: Alyne Elizabeth Rojas Gloria</p>
+                <p>Grupo: GDS0431</p>
+                <p>Asignatura: Aplicaciones Web</p>
+  </footer>
+
+    
+      
+  </body>
+</html>
